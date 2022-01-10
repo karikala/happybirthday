@@ -1,0 +1,98 @@
+* { margin: 0; padding: 0; }
+
+
+/*Box fixing*/
+
+ *{
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+/*Box fixing*/
+
+
+body{
+  /*background: url('../images/space-background.png');*/
+  background: yellow;
+
+}
+
+h1, h2 {
+   font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  
+}
+
+h1{
+  margin-bottom: 2rem;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Waterfall', cursive;*/
+
+section.intro{
+  background: white;
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+  padding-left: 15px;
+ 
+}
+
+about.about1{
+  font-size: 1.30rem;
+
+
+}
+
+
+
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.hero img{
+  line-height: 0;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+aside.right{
+  float: right ;
+  margin-top: 25px;
+  line-height: 0;
+}
+aside.left{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  line-height: 0;
+
+
+}
+
+section.contact{
+  background: grey;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.contact{
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.clear{
+  clear: both;
+}
+
+
